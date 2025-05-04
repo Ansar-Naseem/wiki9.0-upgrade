@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI vs Human Intelligence</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="header">
+        <button id="darkModeToggle">🌙 Dark Mode</button>
+        <h1>Artificial Intelligence <span class="vs-badge">VS</span> Human Intelligence</h1>
+    </header>
+    <nav class="wiki-links">
+        <strong>Explore: </strong>
+        <a href="main1.html" target="_blank" class="ai-link">🧠 AI Intelligence</a>
+        <span class="vs-divider">VS</span>
+        <a href="main2.html" target="_blank" class="human-link">👤 Human Intelligence</a>
+    </nav>
+    <div class="content">
+        <table class="comparison-table">
+            <tr>
+                <th width="25%">Category</th>
+                <th width="35%" class="ai-cell">Artificial Intelligence</th>
+                <th width="35%" class="human-cell">Human Intelligence</th>
+            </tr>
+            <tr>
+                <td>Learning Speed</td>
+                <td class="ai-cell">Can analyze 1M books in 1 hour</td>
+                <td class="human-cell">Takes ~20 years to master a field</td>
+            </tr>
+            <!-- Add 5+ more comparison rows -->
+        </table>
+
+        <div id="battle-container">
+            <div class="battle-card" data-type="ai">
+                <h3>AI Advantages</h3>
+                <ul id="ai-strengths"></ul>
+                <button class="vote-btn" onclick="vote('ai')">Vote AI</button>
+            </div>
+
+            <div class="battle-card" data-type="human">
+                <h3>Human Advantages</h3>
+                <ul id="human-strengths"></ul>
+                <button class="vote-btn" onclick="vote('human')">Vote Human</button>
+            </div>
+        </div>
+
+        <div id="vote-results" style="margin-top: 2em;">
+            <h3>Community Results</h3>
+            <div class="result-bar">
+                <div id="ai-bar" class="bar-fill ai-cell"></div>
+                <div id="human-bar" class="bar-fill human-cell"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
