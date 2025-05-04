@@ -1,6 +1,6 @@
 # 🏆 Wikipedia Intelligence Upgrade - Level Up Hackathon Submission
 
-**Live Demo:** https://github.com/Ansar-Naseem/wiki2-upgrade.git
+**Live Link:** https://ansar-naseem.github.io/wiki9.0-upgrade/
 
 ## 🚀 Key Features
 - **Persistent Dark Mode** (Saves user preference with `localStorage`)
